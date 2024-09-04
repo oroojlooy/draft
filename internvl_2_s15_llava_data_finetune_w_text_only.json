@@ -1,0 +1,426 @@
+{
+"CLEVR-Math-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/CLEVR-Math(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/CLEVR-Math(MathV360K)/CLEVR-Math(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 5280
+},
+"Super-CLEVR-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/Super-CLEVR(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/Super-CLEVR(MathV360K)/Super-CLEVR(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8642
+},
+"clevr-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/clevr(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/clevr(cauldron,llava_format)/clevr(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 69995
+},
+"sharegpt4v-coco": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(coco)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(coco)/sharegpt4v(coco).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 50017
+},
+"hateful_memes-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hateful_memes(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hateful_memes(cauldron,llava_format)/hateful_memes(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8495
+},
+"iconqa-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iconqa(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iconqa(cauldron,llava_format)/iconqa(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 27302
+},
+"image_textualization-filtered": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/image_textualization(filtered)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/image_textualization(filtered)/image_textualization(filtered).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 99573
+},
+"llavar_gpt4_20k": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/llavar_gpt4_20k",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/llavar_gpt4_20k/llavar_gpt4_20k.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 19790
+},
+"sharegpt4v-coco": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(coco)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(coco)/sharegpt4v(coco).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 50017
+},
+"sharegpt4v-knowledge": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(knowledge)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(knowledge)/sharegpt4v(knowledge).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 1988
+},
+"sharegpt4v-llava": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(llava)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(llava)/sharegpt4v(llava).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 29990
+},
+"sharegpt4v-sam": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(sam)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/sharegpt4v(sam)/sharegpt4v(sam).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8990
+},
+"tallyqa-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/tallyqa(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/tallyqa(cauldron,llava_format)/tallyqa(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 98675
+},
+"vision_flan-filtered": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/vision_flan(filtered)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/vision_flan(filtered)/vision_flan(filtered).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 186060
+},
+"visual7w-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/visual7w(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/visual7w(cauldron,llava_format)/visual7w(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 14361
+},
+"vistext-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/vistext(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/vistext(cauldron)/vistext(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 9964
+},
+"VizWiz-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/VizWiz(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/VizWiz(MathV360K)/VizWiz(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 6604
+},
+"websight-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/websight(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/websight(cauldron)/websight(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 9995
+},
+"intergps-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/intergps(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/intergps(cauldron,llava_format)/intergps(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 1275
+},
+"ai2d-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(cauldron,llava_format)/ai2d(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 2429
+},
+"ai2d-gpt4v": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(gpt4v)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(gpt4v)/ai2d(gpt4v).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 4864
+},
+"ai2d-internvl": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(internvl)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ai2d(internvl)/ai2d(internvl).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 12403
+},
+"chart2text-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/chart2text(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/chart2text(cauldron)/chart2text(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 26956
+},
+"diagram_image_to_text-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/diagram_image_to_text(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/diagram_image_to_text(cauldron)/diagram_image_to_text(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 295
+},
+"FigureQA-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/FigureQA(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/FigureQA(MathV360K)/FigureQA(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 17587
+},
+"figureqa-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/figureqa(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/figureqa(cauldron,llava_format)/figureqa(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 99995
+},
+"hitab-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hitab(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hitab(cauldron,llava_format)/hitab(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 2495
+},
+"robut_sqa-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_sqa(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_sqa(cauldron)/robut_sqa(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8509
+},
+"robut_wikisql-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_wikisql(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_wikisql(cauldron)/robut_wikisql(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 74984
+},
+"robut_wtq-cauldron,llava_format": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_wtq(cauldron,llava_format)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/robut_wtq(cauldron,llava_format)/robut_wtq(cauldron,llava_format).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 38241
+},
+"screen2words-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/screen2words(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/screen2words(cauldron)/screen2words(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 15725
+},
+"ureader_cap": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_cap",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_cap/ureader_cap.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 91434
+},
+"ureader_ie": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_ie",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_ie/ureader_ie.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 17322
+},
+"visualmrc-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/visualmrc(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/visualmrc(cauldron)/visualmrc(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 3022
+},
+"mavis_math_metagen": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/mavis_math_metagen",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/mavis_math_metagen/mavis_math_metagen.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 87348
+},
+"mavis_math_rule_geo": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/mavis_math_rule_geo",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/mavis_math_rule_geo/mavis_math_rule_geo.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 99990
+},
+"MapQA-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/MapQA(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/MapQA(MathV360K)/MapQA(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 5225
+},
+"geo170k-align": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geo170k(align)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geo170k(align)/geo170k(align).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 60242
+},
+"geo170k-qa": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geo170k(qa)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geo170k(qa)/geo170k(qa).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 67823
+},
+"GEOS-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/GEOS(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/GEOS(MathV360K)/GEOS(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 498
+},
+"geomverse-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geomverse(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/geomverse(cauldron)/geomverse(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 9298
+},
+"Super-CLEVR-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/Super-CLEVR(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/Super-CLEVR(MathV360K)/Super-CLEVR(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8642
+},
+"UniGeo-MathV360K": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/UniGeo(MathV360K)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/UniGeo(MathV360K)/UniGeo(MathV360K).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 11949
+},
+"raven-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/raven(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/raven(cauldron)/raven(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 41995
+},
+"chrome_writting": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/chrome_writting",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/chrome_writting/chrome_writting.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 8825
+},
+"hme100k": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hme100k",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/hme100k/hme100k.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 74492
+},
+"iiit5k": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iiit5k",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iiit5k/iiit5k.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 1990
+},
+"iam-cauldron": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iam(cauldron)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/iam(cauldron)/iam(cauldron).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 5658
+},
+"k12_printing": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/k12_printing",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/k12_printing/k12_printing.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 256636
+},
+"ureader_qa": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_qa",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/ureader_qa/ureader_qa_processed.jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 17322
+},
+"magpie_pro-l3_80b_mt": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(l3_80b_mt)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(l3_80b_mt)/magpie_pro(l3_80b_mt).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 299988
+},
+"magpie_pro-l3_80b_st": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(l3_80b_st)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(l3_80b_st)/magpie_pro(l3_80b_st).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 299990
+},
+"magpie_pro-qwen2_72b_st": {
+  "root": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(qwen2_72b_st)",
+  "annotation": "/mnt/shared-physical-ad1/aoroojlo/codes/LLaVA-NeXT/LLaVA-OneVision-Data/magpie_pro(qwen2_72b_st)/magpie_pro(qwen2_72b_st).jsonl",
+  "data_augment": false,
+  "repeat_time": 1,
+  "parquet": false,
+  "length": 299982
+}
+}
